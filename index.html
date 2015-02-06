@@ -8,7 +8,7 @@
 		<script src="xxx/jquery.flexslider.js"></script>
 
 
-
+<link rel="stylesheet" href="estilos.css" type="text/css">
 </head>
 <body id="index">
 <div class="flexslider">
@@ -20,14 +20,18 @@
       <img src="images/bbb.jpg" />
     </li>
     <li>
-      <images src="images/ccc.jpg" />
+      <img src="images/ccc.jpg" />
     </li>
   </ul>
 </div>
 <!-- Place in the <head>, after the three links -->
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
-    $('.flexslider').flexslider();
+    $('.flexslider').flexslider({
+    		randomize: true,
+
+
+    });
   });
 </script>
 </body>
